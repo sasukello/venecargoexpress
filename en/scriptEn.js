@@ -60,8 +60,8 @@
                     {
 						// alert("Libra mayor a  10!");
                         // console.log(t_lb,"/" ,t_lbVOL);
-                        aeroLIBRA=t_lb*4.80;
-                        aeroVOLUMEN = t_lbVOL*4.80;
+                        aeroLIBRA=t_lb*4.50;
+                        aeroVOLUMEN = t_lbVOL*4.50;
                        
                        
                        if(aeroLIBRA>aeroVOLUMEN)
@@ -83,7 +83,7 @@
 	else //Servicio Marítimo.
 	{
         
-					 Maritimo=t_piecubico*15.00;
+					 Maritimo=t_piecubico*17.00;
                     document.getElementById('resultado').innerHTML=("Cost of your shipment by the Ocean $" + Maritimo.toFixed(2));
                
 	}
